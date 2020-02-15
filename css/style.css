@@ -138,7 +138,7 @@ h6 {
 #header.header-scrolled {
   background: rgba(0, 0, 0, 0.9);
   padding: 20px 0;
-  height: 72px;
+  height: 85px;
   transition: all 0.5s;
 }
 
@@ -739,43 +739,43 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Services Section
 --------------------------------*/
 
-#services {
+#services, #program, #anunturi {
   background: #fff;
   background-size: cover;
   padding: 60px 0 40px 0;
 }
 
-#services .box {
+#services .box, #program .box, #anunturi .box {
   margin-bottom: 30px;
 }
 
-#services .icon {
+#services .icon, #program .icon, #anunturi .icon {
   float: left;
 }
 
-#services .icon i {
+#services .icon i, #program .icon i, #anunturi .icon i {
   color: #18d26e;
   font-size: 36px;
   line-height: 1;
   transition: 0.5s;
 }
 
-#services .title {
+#services .title, #program .title, #anunturi .title {
   margin-left: 60px;
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 18px;
 }
 
-#services .title a {
+#services .title a, #program .title a, #anunturi .title a {
   color: #111;
 }
 
-#services .box:hover .title a {
+#services .box:hover .title a, #program .box:hover .title a, #anunturi .box:hover .title a {
   color: #18d26e;
 }
 
-#services .description {
+#services .description, #program .description, #anunturi .description {
   font-size: 14px;
   margin-left: 60px;
   line-height: 24px;
@@ -785,23 +785,23 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Call To Action Section
 --------------------------------*/
 
-#call-to-action {
+#call-to-action, #rezultate {
   background: linear-gradient(rgba(0, 142, 99, 0.1), rgba(0, 0, 0, 0.1)), url(../img/call-to-action-bg.jpg) fixed center center;
   background-size: cover;
   padding: 60px 0;
 }
 
-#call-to-action h3 {
+#call-to-action h3, #rezultate h3{
   color: #fff;
   font-size: 28px;
   font-weight: 700;
 }
 
-#call-to-action p {
+#call-to-action p, #rezultate p {
   color: #fff;
 }
 
-#call-to-action .cta-btn {
+#call-to-action .cta-btn, #rezultate .cta-btn {
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   font-weight: 500;
@@ -816,7 +816,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #fff;
 }
 
-#call-to-action .cta-btn:hover {
+#call-to-action .cta-btn:hover, #rezultate .cta-btn:hover{
   background: #18d26e;
   border: 2px solid #18d26e;
 }
@@ -1359,6 +1359,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding: 0 0 30px 0;
   color: #eee;
   font-size: 14px;
+  padding-bottom: 0;
 }
 
 #footer .footer-top {
