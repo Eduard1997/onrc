@@ -24,9 +24,23 @@
   <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
   <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
 
+  <script src="https://kit.fontawesome.com/08129481c5.js" crossorigin="anonymous"></script>
+
   <!-- Main Stylesheet File -->
   <link href="css/style.css" rel="stylesheet">
-
+  <style>
+    .onrc-logo {
+      height: auto;
+      max-width: 674px;
+    }
+    .header-container {
+      display: flex;
+      align-items: center;
+    }
+    #logo {
+      padding-left: 0 !important;
+    }
+  </style>
   <!-- =======================================================
     Theme Name: BizPage
     Theme URL: https://bootstrapmade.com/bizpage-bootstrap-business-template/
@@ -41,12 +55,13 @@
     Header
   ============================-->
   <header id="header">
-    <div class="container-fluid">
+    <div class="container-fluid header-container">
 
       <div id="logo" class="pull-left">
-        <h1><a href="#intro" class="scrollto">Olimpiada Națională de Religie Catolică</a></h1>
-        <!-- Uncomment below if you prefer to use an image logo -->
-        <!-- <a href="#intro"><img src="img/logo.png" alt="" title="" /></a>-->
+        <!--<h1><a href="#intro" class="scrollto">Olimpiada Națională de Religie Catolică</a></h1>-->
+        <!-- Uncomment below if you prefer to use an image logo-->
+         <a href="#intro"><img class="rounded onrc-logo" src="img/onrc_logo.jpg" alt="" title="" /></a>
+        <!--<img src="img/onrc_logo.jpg" />-->
       </div>
 
       <nav id="nav-menu-container">
@@ -210,7 +225,7 @@
             <div class="about-col">
               <div class="img">
                 <img src="img/about-mission.jpg" alt="" class="img-fluid">
-                <div class="icon"><i class="ion-ios-speedometer-outline"></i></div>
+                <div class="icon"><i class="ion-ios-people-outline"></i></div>
               </div>
               <h2 class="title">Comisia Naționlă</h2>
               <p>
@@ -236,7 +251,7 @@
             <div class="about-col">
               <div class="img">
                 <img src="img/about-vision.jpg" alt="" class="img-fluid">
-                <div class="icon"><i class="ion-ios-eye-outline"></i></div>
+                <div class="icon"><i class="fa fa-building-o"></i></div>
               </div>
               <h2 class="title">Cazare</h2>
               <p>
@@ -264,17 +279,17 @@
         <div class="row">
 
           <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
-            <div class="icon"><i class="ion-ios-analytics-outline"></i></div>
+            <div class="icon"><i class="ion-android-people"></i></div>
             <h4 class="title"><a href="">Elevi</a></h4>
             <p class="description">Detalii despre elevi</p>
           </div>
           <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
-            <div class="icon"><i class="ion-ios-bookmarks-outline"></i></div>
+            <div class="icon"><i class="fas fa-chalkboard-teacher"></i></div>
             <h4 class="title"><a href="">Insotitori</a></h4>
             <p class="description">Detalii despre institori</p>
           </div>
           <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
-            <div class="icon"><i class="ion-ios-paper-outline"></i></div>
+            <div class="icon"><i class="fa fa-school"></i></div>
             <h4 class="title"><a href="">Repartizare sali</a></h4>
             <p class="description">Detalii despre repartizare sali</p>
         </div>
