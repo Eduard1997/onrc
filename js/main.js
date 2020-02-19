@@ -3,6 +3,7 @@
 
   // Preloader
   $(window).on('load', function () {
+    checkForMobileDevices();
     if ($('#preloader').length) {
       $('#preloader').delay(100).fadeOut('slow', function () {
         $(this).remove();
@@ -13,10 +14,10 @@
   // Back to top button
   $(window).scroll(function() {
     if ($(this).scrollTop() > 100) {
-      $('.header-container').removeClass('header-container');
+      /*$('.header-container').removeClass('header-container');*/
       $('.back-to-top').fadeIn('slow');
     } else {
-      $('#header > .container-fluid').addClass('header-container');
+      /*$('#header > .container-fluid').addClass('header-container');*/
       $('.back-to-top').fadeOut('slow');
     }
   });
@@ -204,6 +205,12 @@
     loop: true,
     items: 1
   });
+
+  function checkForMobileDevices() {
+    if (typeof window.orientation !== 'undefined') {
+      $('#intro').text('ONRC');
+    }
+  }
 
 })(jQuery);
 
