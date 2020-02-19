@@ -208,7 +208,7 @@
 
   function checkForMobileDevices() {
     if (typeof window.orientation !== 'undefined') {
-      $('#intro').text('ONRC');
+      $('.title-link').text('ONRC');
     }
   }
 
